@@ -5,7 +5,7 @@ from PIL import Image
 import streamlit.components.v1 as components
 
 # Load model
-model = load_model(r"C:\Users\anmol\Desktop\brain_tumor_detection\model.h5")
+model = load_model(r"./model.h5")
 
 # Page settings
 st.set_page_config(page_title="Brain Tumor Detector", page_icon="🧠", layout="wide")
@@ -117,3 +117,4 @@ with right_col:
 
 # Footer
 st.markdown("<footer>© 2025 BrainScan AI · Built with ❤️ using Streamlit</footer>", unsafe_allow_html=True)
+
